@@ -6,7 +6,7 @@
 }
 body{
    font-size: 20px;
-   background: url('/images/background.jpg');
+   background: url('../images/background.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -218,7 +218,7 @@ display: none;
 #card.open-fully #card-front,
 #card.close-half #card-front {
     background: #FFEFEF;
-    background:url("/images/birthday/pic3.jpg");
+    background:url("../images/birthday/pic3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-transform: scaleX(-1);
