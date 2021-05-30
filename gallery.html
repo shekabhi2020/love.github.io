@@ -19,75 +19,113 @@
             $(function() {
                 AOS.init();
             });
+            $(document).ready(function() {
+                $('.column1').mouseover(function(){
+                    $(".column2").css("visibility" , "visible");
+                })
+                $('.column1').mouseout(function(){
+                    $(".column2").css("visibility" , "hidden");
+                })
+            });
         </script>
     </head>
     <body>
        <div class="container gallery">
            <div class="row">
-               <div class="col align-items-start" data-aos="fade-right">
-                  <img src="./images/birthday/pic1.jpg" alt="pic1">
+               <div class="col align-items-start column1" data-aos="fade-right">
+                  <img src="./images/birthday/photo3.jpg" alt="pic1">
                </div>
-               <div class="col align-items-end" data-aos="fade-left">
-                   Content Area
+               <div class="col align-items-end column2" data-aos="fade-left">
+                   <h1>Smarty One</h1>
                </div>
            </div>
            <div class="row">
-                <div class="col align-items-start" data-aos="fade-right">
-                    Content Area
+                <div class="col align-items-start column2" data-aos="fade-right">
+                    <h1>Beautiful Smile Ever</h1>
                 </div>
-                <div class="col align-items-end" data-aos="fade-left">
-                    <img src="./images/birthday/pic2.jpg" alt="pic1">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col align-items-start" data-aos="fade-right">
-                    <img src="./images/birthday/pic3.jpg" alt="pic1">
-                </div>
-                <div class="col align-items-end" data-aos="fade-left">
-                    Content Area
+                <div class="col align-items-end column1" data-aos="fade-left">
+                    <img src="./images/birthday/photo2.jpg" alt="pic1">
                 </div>
             </div>
             <div class="row">
-                 <div class="col align-items-start" data-aos="fade-right">
-                     Content Area
+                <div class="col align-items-start column1" data-aos="fade-right">
+                    <img src="./images/birthday/photo1.jpg" alt="pic1">
+                </div>
+                <div class="col align-items-end column2" data-aos="fade-left">
+                    <h1>Cool Nature Person</h1>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col align-items-start column2" data-aos="fade-right">
+                    <h1>Handsome and Cool Dude</h1>
                  </div>
-                 <div class="col align-items-end" data-aos="fade-left">
-                    <img src="./images/birthday/pic4.jpg" alt="pic1">
+                 <div class="col align-items-end column1" data-aos="fade-left">
+                    <img src="./images/birthday/photo4.jpg" alt="pic1">
                  </div>
              </div>
              <div class="row">
-                <div class="col align-items-start" data-aos="fade-right">
-                    <img src="./images/birthday/pic5.jpg" alt="pic1">
+                <div class="col align-items-start column1" data-aos="fade-right">
+                    <img src="./images/birthday/photo5.jpg" alt="pic1">
                 </div>
-                <div class="col align-items-end" data-aos="fade-left">
-                    Content Area
+                <div class="col align-items-end column2" data-aos="fade-left">
+                    <h1>Best Brother Ever</h1>
                 </div>
             </div>
             <div class="row">
-                 <div class="col align-items-start" data-aos="fade-right">
-                     Content Area
+                 <div class="col align-items-start column2" data-aos="fade-right">
+                    <h1>Obedient Son</h1>
                  </div>
-                 <div class="col align-items-end" data-aos="fade-left">
-                    <img src="./images/birthday/pic1.jpg" alt="pic1">
+                 <div class="col align-items-end column1" data-aos="fade-left">
+                    <img src="./images/birthday/photo6.jpg" alt="pic1">
                  </div>
              </div>
              <div class="row">
-                <div class="col align-items-start" data-aos="fade-right">
-                    <img src="./images/birthday/pic 6.jpg" alt="pic1">
+                <div class="col align-items-start column1" data-aos="fade-right">
+                    <img src="./images/birthday/photo7.jpg" alt="pic1">
                 </div>
-                <div class="col align-items-start" data-aos="fade-left">
-                    Content Area
+                <div class="col align-items-end column2" data-aos="fade-left">
+                    <h1>Hot And Sexy</h1>
                 </div>
             </div>
             <div class="row">
-                 <div class="col align-items-start" data-aos="fade-right">
-                     Content Area
+                 <div class="col align-items-start column2" data-aos="fade-right">
+                    <h1>Cutie Pie...Feels Like continuosly Kiss him</h1>
                  </div>
-                 <div class="col align-items-end" data-aos="fade-left">
-                    <img src="./images/birthday/pic1.jpg" alt="pic1">
+                 <div class="col align-items-end column1" data-aos="fade-left">
+                    <img src="./images/birthday/photo8.jpg" alt="pic1">
                  </div>
              </div>
+             <div class="row">
+                <div class="col align-items-start column1" data-aos="fade-right">
+                    <img src="./images/birthday/photo9.jpg" alt="pic1">
+                </div>
+                <div class="col align-items-end column2" data-aos="fade-left">
+                    <h1>Smarty and Cool Dude</h1>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col align-items-start column2" data-aos="fade-right">
+                    <h1>Best Ever Friend</h1>
+                 </div>
+                 <div class="col align-items-end column1" data-aos="fade-left">
+                    <img src="./images/birthday/photo10.jpg" alt="pic1">
+                 </div>
+             </div>
+             <div class="row">
+                <div class="col align-items-start column1" data-aos="fade-right">
+                    <img src="./images/birthday/photo11.jpg" alt="pic1">
+                </div>
+                <div class="col align-items-end column2" data-aos="fade-left">
+                    <h1>GentleMen</h1>
+                </div>
+            </div>
         </div>
-       <button class="btn2 btn-lg" onclick="btn2click()">Move On Last Page</button>
+        <div class="btnbox">
+            <button class="btn2 btn-lg align-items-start" onclick="onhome()">&larr; Go to Home</button>
+            <button class="btn2 btn-lg" onclick="btn2click()">Click On It &#x2661;</button>
+        </div>
+       <div style="visibility: hidden;">
+           <embed src="bday1.mp3" autostart="true" loop="true">
+       </div>
     </body>
 </html>

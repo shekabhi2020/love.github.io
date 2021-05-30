@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Nobile:400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 body{
    font-size: 20px;
-   background: url('../images/background.jpg');
+   background: url('/images/background.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -30,20 +31,21 @@ body{
     color: bisque;
     margin-top: 200px;
     font-family: cursive;
+    font-weight:800;
+    font-size: 100px;
 }
 
 .mainpage h2{
-    color: bisque;
     margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    color: chocolate;
+    font-size: 70px;
+    color:#00d4ff;
     font-weight: bold;
 }
 
 .main button{
     background-color: burlywood;
-    transform: translate(340%,150%);
+    transform: translate(290%,150%);
 }
 
 .mainpage strong{
@@ -63,20 +65,38 @@ body{
     height: 400px;
 }
 
-.btn2{
-    margin-top: 60px;
+.gallery h1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 90px;
+    padding-top: 150px;
+}
+
+.btnbox{
+    margin-top: 80px;
     margin-left: 550px;
-    margin-bottom: 50px;
-    background-color: chocolate;
-    /* border: 2px solid red;
-    border-radius: 10px; */
-    font-size: 30px;
+}
+
+.btn2{
+    background-color: coral;
+    padding-top:200px;
 }
 
 .gallery .row{
     padding-top: 150px;
 }
+.column2 h1{
+   color:teal;
+}
+.column2 {
+    visibility: hidden;
+}
 
+.column1 img{
+    box-shadow: 5px 10px 18px grey;
+}
 /* ================= End of Gallery =================== */
 
 /* ================= Last page ================ */
@@ -154,10 +174,10 @@ p.signed {
 }
 
 #card-front {
-    background-color: #FF5555;
-    background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
-    background-image: -moz-linear-gradient(top, #FF5555 0%, #FF7777 100%);
-    background-image: -webkit-linear-gradient(top, #FF5555 0%, #FF7777 100%);
+    background-image: url(../images/birthday/pic3.jpg);
+    background-image: url(../images/birthday/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
             transform-origin: left;
     -webkit-transform-origin: left;
             transition:transform 1s linear;
@@ -218,8 +238,8 @@ display: none;
 #card.open-fully #card-front,
 #card.close-half #card-front {
     background: #FFEFEF;
-    background:url("../images/birthday/pic3.jpg");
-    background-size: cover;
+    background:url("/images/birthday/photo7.jpg");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -240,9 +260,7 @@ display: none;
 }
 
 .btn3{
-    margin-top: 130px;
-    margin-left: 550px;
-    background-color: chocolate;
+    background-color:coral;
     font-size: 30px;
 }
 
