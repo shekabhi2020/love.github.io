@@ -7,7 +7,7 @@
 }
 body{
    font-size: 20px;
-   background: url('../images/background.jpg');
+   background: url(/images/background.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -174,8 +174,8 @@ p.signed {
 }
 
 #card-front {
-    background-image: url(../images/birthday/pic3.jpg);
-    background-image: url(../images/birthday/pic3.jpg);
+    background-image: url(/images/birthday/pic3.jpg);
+    background-image: url(/images/birthday/pic3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
             transform-origin: left;
@@ -238,7 +238,7 @@ display: none;
 #card.open-fully #card-front,
 #card.close-half #card-front {
     background: #FFEFEF;
-    background:url("../images/birthday/photo7.jpg");
+    background:url(/images/birthday/photo7.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     -webkit-transform: scaleX(-1);
